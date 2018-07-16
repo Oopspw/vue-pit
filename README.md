@@ -91,3 +91,14 @@ axios.post('/foo', qs.stringify({ 'bar': 123 }));
 ```
 
 ---
+
+
+### 利用gitlab+python+Jenkins进行的自动部署
+代码进行开发完成后上传至gitlab，python根据gitlab的版本差异比较，获取最新的代码到Jenkins执行'npm install'和'npm run build'进行自动打包部属
+```js
+npm 5.6
+node 8.11.1
+//确保本地版本和线上环境的版本一致
+```
+
+---
